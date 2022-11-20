@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Flow Team",
+    "slug": "FlowTeam",
+    "version": "1.1.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.zachrizzo.FlowTeam",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "We need to know your current location to find out how far you are from work , so you can clock-In for work. Do you allow us to use location service on this device?"
+      }
+      
+    },
+    "android": {
+      "package": "com.zachrizzo.FlowTeam",
+      "versionCode": 2,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "config":{
+        "googleMaps": {
+          "apiKey": "AIzaSyCF5dSfMivH0YxB6PMQlZBFAAhjnlkQ96o"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
